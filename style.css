@@ -1,0 +1,237 @@
+/* Gerais */
+body{
+    margin:0;
+    padding: 0;
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    width: 0;
+    background: transparent; 
+    
+}
+#informacoes{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+}
+#container{
+    margin:0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 600%    ;
+}
+#LimaFLIX{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    box-shadow: 0 0 40px 10px rgba(43, 43, 43, 0.903);
+}
+#pesquisa{
+    position: absolute;
+    top:15px;
+    right: 35%;
+    background-color: white;
+    height: 40px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inputPesquisa{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 500px;
+}
+.pesquisaBotao{
+    color: yellow;
+    font-size: 40px;
+}
+
+
+#login{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: yellow;
+    font-size: 50px;
+}
+
+section{
+    display: flex;
+    box-shadow: 0 0 40px 0 rgba(43, 43, 43, 0.903);
+    padding: 60px 4%;
+}
+#textoDragao{
+    color:rgb(177, 177, 177);
+    text-align: justify;
+    width: 48%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#textoDragao:img{
+    margin:30px;
+}
+.titulo{
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+#top10{
+    font-size: 30px;
+    padding: 0 0 0 80px;
+}
+#sinopse{
+    width: 60%;
+    padding: 0 30px 30px 80px;
+}
+iframe{
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 100px;
+    border: 2px solid yellow;
+    box-shadow: 0px 0px 10px rgb(255, 255, 194);
+}
+#imagemDragao{
+    padding: 0 0 0 50px;
+}
+#textoMaisVisto{
+    color:yellow;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+#maisVistos{
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    overflow-x: scroll;
+}
+#recomendado{
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    overflow-x: scroll;
+}
+#maisVistos::-webkit-scrollbar{
+    width: 0;
+    background: transparent; 
+    
+}
+#recomendado::-webkit-scrollbar{
+    width: 0;
+    background: transparent; 
+    
+}
+.modelo{
+    margin-left: 15px;
+    position: relative; 
+    width: 700px;
+    height: 400px;
+    padding:0 40px 0 0;
+    border-radius: 2px;
+    border: 2px solid rgb(49, 49, 49);
+    box-shadow: inset;
+    .texto{
+        color: rgb(177, 177, 177);
+        width:200px;
+        margin-right: 40px;
+        text-align: center;
+    }
+    img{   
+        position: absolute;
+        
+    }
+    .texto>.titulo{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: black;
+    }
+
+    /* .texto>.botao{
+        border-radius: 15px;
+        background-color: yellow;
+        padding: 5px;
+        a{
+            color:black;
+        }
+    }
+    .texto>.botao:hover{
+        border: 1px solid yellow;
+        background-color: black;
+        a{
+            color: white;
+        }
+    }
+    .texto>.saibaMais{
+        border-radius: 15px;
+        background-color: yellow;
+        padding: 5px;
+        position: absolute;
+        bottom: 15px;
+        a{
+            color:black;
+        }
+    }
+    .texto>.saibaMais:hover{
+        border: 1px solid yellow;
+        background-color: black;
+        a{
+            color:white;
+        }
+    } */
+}
+a{
+    text-decoration: none;
+}
+.modelo>.saibaMais{
+    margin-top: 45px;
+}
+@keyframes puxa{
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 300px;
+    }
+}
+.modelo:hover{
+    .texto{
+        animation:puxa;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        margin-right: 0;
+    }
+}
+
+#textoRecomendado{
+    color:yellow;
+    margin-left: 15px;
+}
+    
+    

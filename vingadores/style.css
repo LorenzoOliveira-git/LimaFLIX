@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 280px;
+}
+header>img{
+    margin-left: 28%;
+}
+td>#resenha{
+    color:rgb(177, 177, 177);
+}
+#resenha{
+    text-align: justify;
+    padding: 5px;
+}
+iframe{
+    margin-left: 15px;
+}
+td>#titulo{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px 10px 20px 10px;
+}
+#resenha{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resenha>img{
+    display: flex;
+    margin: 0 auto;
+}
