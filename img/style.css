@@ -1,0 +1,27 @@
+div img{
+    float: left;
+}
+#megasena{
+    margin:auto;
+}
+td{
+    padding: 10px;
+}
+#megasena td:hover{
+    background-color: pink;
+    
+}
+.vermelho{
+    background-color: red;
+}
+.roxo{
+    background-color: purple;
+
+}
+.amarelo{
+    background-color: yellow;
+
+}
+.azul{
+    background-color: blue;
+}
