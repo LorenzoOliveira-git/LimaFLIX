@@ -1,37 +1,97 @@
-*{
+/* Gerais */
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+.container{
+    background-color: black;
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: black;
+
+
+
+/* Header */
+#LimaFLIX{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 header{
     width: 100%;
-    height: 280px;
+    height: 15vh;
+    position: relative;
+    background-color: black;
 }
-header>img{
-    margin-left: 35%;
-}
-td>#resenha{
-    color:rgb(177, 177, 177);
-}
-iframe{
-    margin-left: 15px;
-}
-#resenha{
-    text-align: justify;
-    padding: 5px;
-}
-td>#titulo{
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 30px 10px 20px 10px;
-}
-#resenha{
-    font-family: Arial, Helvetica, sans-serif;
-}
-#resenha>img{
+#pesquisa{
+    position: absolute;
+    top:15px;
+    right: 35%;
+    background-color: white;
+    height: 40px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 40px;
     display: flex;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inputPesquisa{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 500px;
+}
+.pesquisaBotao{
+    color: yellow;
+    font-size: 40px;
+}
+#login a{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: yellow;
+    font-size: 50px;
+}
+
+/* IMAGEM PRINCIPAL */
+.imagemPrincipal{
+    width: 100%;
+    height: 700px;
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, black 100%),
+        url("img/FotoGrandeFilme2.webp") no-repeat;
+    background-size: cover;
+    }
+
+/* TEXTO */
+.resenha{
+    display: flex;
+    align-items: start;
+    gap:50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.resenha .texto{
+    margin-top:100px;
+    color:white;
+    width: 50%;
+}
+.resenha .texto p{
+    font-size: 18px;
+}
+.resenha .texto img{
+    height: 400px;
+    margin: 0;
+}
+
+.resenha img{
+    height: 500px;
+    margin-top: 130px;
 }

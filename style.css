@@ -228,9 +228,8 @@ iframe{
     .texto>a>.botao:hover{
         border: 1px solid yellow;
         background-color: black;
-        a{
-            color: white;
-        }
+        color: white;
+        
     }
     .texto>a>.botaoSaibaMais{
         border-radius: 15px;
@@ -245,9 +244,7 @@ iframe{
     .texto>.saibaMais:hover{
         border: 1px solid yellow;
         background-color: black;
-        a{
-            color:white;
-        }
+        color:white;
     }
 }
 a{
